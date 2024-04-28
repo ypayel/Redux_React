@@ -5,6 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ProductCartProvider } from './components/context/ProductCart';
 import { SongContextProvider } from './components/context/SongContext';
+import { Provider } from 'react-redux';
+import { store } from './components/redux/store';
+import { storeCount } from './components/redux/Counter/store';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -13,7 +16,9 @@ root.render(
   <React.StrictMode>
     <ProductCartProvider>
     <SongContextProvider>
+    <Provider store={storeCount}>
     <App />
+    </Provider>
     </SongContextProvider>
     </ProductCartProvider>
   </React.StrictMode>
