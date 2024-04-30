@@ -1,6 +1,6 @@
 ## What I learned
 
-In this repository I learn how Redux works, what I can write in Redux, try to understand Redux and sharpen my skills, learn new things.
+In this repository I learn how Redux works, what I can write in Redux, try to understand Redux and grind my skills, learn new things.
 
 ## Built with 
 
